@@ -3,6 +3,8 @@ var app = express();
 
 app.set('view engine', 'ejs');
 
+app.use(express.static(__dirname + '/public')); // dirname portable in case of new version
+
 app.get('/', function(req, res) {
 	res.render('home');
 });
