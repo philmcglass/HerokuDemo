@@ -3,7 +3,9 @@
 }
 h1 {
 	background-color: blueviolet;
+	width: 200px;
 }
 img {
-	transform: rotate(30deg)
+	transform: rotate(20deg);
+	padding: 100px;
 }
